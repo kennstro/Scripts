@@ -1,9 +1,3 @@
-local services = setmetatable({},{__index = function(_,serv) return game:GetService(serv) end})
-local classRemotes = services.ReplicatedStorage.Classes
-local prevConnections = {}
-
-local localPlayer = services.Players.LocalPlayer
-
 --Baking MailBox
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-487.588165, 64.3041458, -13.4673109, 0.799599946, -0.32707566, 0.503648162, 1.87754631e-06, 0.838669837, 0.544640183, -0.600533009, -0.43549332, 0.67060101)
 wait(1)
@@ -22,6 +16,12 @@ wait(1)
 --Chemistry MailBox
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-110.586517, 34.1827927, -325.891235, 0.76594317, 0, 0.642908275, 0, 1, 0, -0.642908275, 0, 0.76594317)
 wait(1)
+
+local services = setmetatable({},{__index = function(_,serv) return game:GetService(serv) end})
+local classRemotes = services.ReplicatedStorage.Classes
+local prevConnections = {}
+
+local localPlayer = services.Players.LocalPlayer
 
 function fireBack(remote, times, ...)
     local args = {...}
