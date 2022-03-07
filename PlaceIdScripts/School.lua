@@ -4,6 +4,25 @@ local prevConnections = {}
 
 local localPlayer = services.Players.LocalPlayer
 
+--Baking MailBox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-487.588165, 64.3041458, -13.4673109, 0.799599946, -0.32707566, 0.503648162, 1.87754631e-06, 0.838669837, 0.544640183, -0.600533009, -0.43549332, 0.67060101)
+wait(1)
+--Computer MailBox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-54.2502594, 27.9028397, -154.837814, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+--Art Mailbox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-213.013916, 34.152668, -351.922882, -0.50211525, 0, 0.864800692, 0, 1, 0, -0.864800692, 0, -0.50211525)
+wait(1)
+--English MailBox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-22.5894127, 27.9028397, -154.754684, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait(1)
+--Swimming MailBox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-200.783859, -8.15095806, -285.88559, -0.939640641, 0, -0.342163026, 0, 1, 0, 0.342163026, 0, -0.939640641)
+wait(1)
+--Chemistry MailBox
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-110.586517, 34.1827927, -325.891235, 0.76594317, 0, 0.642908275, 0, 1, 0, -0.642908275, 0, 0.76594317)
+wait(1)
+
 function fireBack(remote, times, ...)
     local args = {...}
     return remote.OnClientEvent:Connect(function()
