@@ -34,6 +34,8 @@ chemistry = function()
 
     pe = function()
         return {
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1601.89148, 95.0090179, -41.775238, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
+            wait(1)
             classRemotes.Timer.OnClientEvent:Connect(function()
                  --fireclickdetector(workspace["PE Class"].Bell.ClickDetector, 4)   
                 fireclickdetector(game:GetService("Workspace")["PE Class"].Bell.ClickDetector, 4)
