@@ -35,7 +35,8 @@ chemistry = function()
     pe = function()
         return {
             classRemotes.Timer.OnClientEvent:Connect(function()
-                fireclickdetector(workspace["PE Class"].Bell.ClickDetector, 4)
+                 --fireclickdetector(workspace["PE Class"].Bell.ClickDetector, 4)   
+                fireclickdetector(game:GetService("Workspace")["PE Class"].Bell.ClickDetector, 4)
             end)   
         }
     end,
