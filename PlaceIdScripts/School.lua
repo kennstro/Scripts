@@ -22,15 +22,19 @@ local classFuncs = {
         return {fireBack(classRemotes.Computer, 1, 1)}
     end,
     
-    --[[
+
 chemistry = function()
         return {fireBack(classRemotes.Chemistry, 1, "SequenceDone")}
     end,
---
+
+
+    
+ --[[
+     chemistry = function() end,
+    
+    --
 --
 --]]
-    
-     chemistry = function() end,
 
     pe = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1601.89148, 95.0090179, -41.775238, 0.866007268, -0, -0.500031412, 0, 1, -0, 0.500031412, 0, 0.866007268)
