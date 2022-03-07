@@ -21,10 +21,16 @@ local classFuncs = {
     computer = function()
         return {fireBack(classRemotes.Computer, 1, 1)}
     end,
-
-    chemistry = function()
+    
+    --[[
+chemistry = function()
         return {fireBack(classRemotes.Chemistry, 1, "SequenceDone")}
     end,
+--
+--
+--]]
+    
+     chemistry = function() end,
 
     pe = function()
         return {
