@@ -1,3 +1,7 @@
+local services = setmetatable({},{__index = function(_,serv) return game:GetService(serv) end})
+local localPlayer = services.Players.LocalPlayer
+local playerGui = localPlayer:WaitForChild("PlayerGui")
+
 for i, v in pairs(game.Players:GetPlayers()) do
 	
 	if v.Name == "bunniesrule323" then
@@ -41,12 +45,6 @@ for i, v in pairs(game.Players:GetPlayers()) do
 	end
 	end
 end
-
-wait(3)
-
-local services = setmetatable({},{__index = function(_,serv) return game:GetService(serv) end})
-local localPlayer = services.Players.LocalPlayer
-local playerGui = localPlayer:WaitForChild("PlayerGui")
 
 local function sleep()
     local needsScreen = playerGui:WaitForChild("NeedsBar")
