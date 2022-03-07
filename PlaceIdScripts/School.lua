@@ -1,3 +1,4 @@
+wait(2)
 --Baking MailBox
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-487.588165, 64.3041458, -13.4673109, 0.799599946, -0.32707566, 0.503648162, 1.87754631e-06, 0.838669837, 0.544640183, -0.600533009, -0.43549332, 0.67060101)
 wait(1)
