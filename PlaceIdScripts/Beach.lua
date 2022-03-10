@@ -1,5 +1,4 @@
-local Player3 = game:GetService('Players').LocalPlayer
-Player3.CharacterAdded:Wait()
+repeat task.wait() until game:IsLoaded()
 
 wait(5)
 
