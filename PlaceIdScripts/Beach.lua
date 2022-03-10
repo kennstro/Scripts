@@ -1,3 +1,6 @@
+local Player3 = game:GetService('Players').LocalPlayer
+Player3.CharacterAdded:Wait()
+
 wait(5)
 
 for i, v in pairs(game.Players:GetPlayers()) do
