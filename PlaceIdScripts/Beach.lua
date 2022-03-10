@@ -1,6 +1,4 @@
-repeat task.wait() until game:IsLoaded()
-
-wait(5)
+wait(10)
 
 for i, v in pairs(game.Players:GetPlayers()) do
 	
