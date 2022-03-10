@@ -1,5 +1,4 @@
-local Player2 = game:GetService('Players').LocalPlayer
-Player2.CharacterAdded:Wait()
+repeat task.wait() until game:IsLoaded()
 
 wait(2)
 --Baking MailBox
